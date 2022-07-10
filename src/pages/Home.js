@@ -61,8 +61,19 @@ const Home = () => {
 
   return (
     <div>
-      <a href=''>
-        
+      <a
+        href='https://github.com/dudtk3612/emotion-diary-son'
+        rel='noreferrer noopener'
+        target='_blank'
+        style={{
+          display: 'inline-block',
+          marginTop: '15px',
+          textDecoration: 'none',
+          fontSize: '18px',
+          fontWeight: 'bold',
+        }}
+      >
+        emotion-diary github
       </a>
       <MyHeader
         leftChild={<MyButton text={'<'} onClick={decreaseMonth} />}
