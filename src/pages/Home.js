@@ -73,7 +73,7 @@ const Home = () => {
           fontWeight: 'bold',
         }}
       >
-        emotion-diary github
+        emotion-diary / github
       </a>
       <MyHeader
         leftChild={<MyButton text={'<'} onClick={decreaseMonth} />}
